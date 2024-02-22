@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'apps.projects',
     # Packages
     'rest_framework',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
