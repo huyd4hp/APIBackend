@@ -29,5 +29,7 @@
 * `echo NAME_DATABASE = ... >> .env`
 * `echo HOST_DATABASE = ... >> .env`
 * `echo SECRET_KEY = ...`
+### KHỞI TẠO DATABASE
+* `docker-compose up -d`
 ### CHẠY
 * `python APIBackend/manage.py runserver`
