@@ -11,8 +11,10 @@
 * API đăng nhập JWT
 ### API QUẢN LÝ DỰ ÁN 
 * Tạo, sửa, xem xóa dự án
+* Phân quyền truy cập vào dự án dựa trên vai trò người dùng
 ### API QUẢN LÝ CÔNG VIỆC
 * Quản lý các nhiệm vụ trong mỗi dự án: thêm, sửa, xóa, và cập nhật trạng thái công việc (Đang tiến hành, Hoàn thành)
+* Hỗ trợ gán nhiệm vụ cho người dùng cụ thể trong dự án
 
 ## HƯỚNG DẪN CHẠY
 ### TẠO MỖI TRƯỜNG ẢO VÀ CÀI THƯ VIỆN
