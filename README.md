@@ -21,6 +21,8 @@
 * `python -m venv venv` 
 * `source venv/scripts/activate` 
 * `pip install -r requirements.txt` 
+### KHỞI TẠO DATABASE
+* `docker-compose up -d`
 ### TẠO FILE .ENV VÀ CÁC BIỂN CẦN THIẾT
 * `touch .env`
 * `echo USER_DATABASE = ... >> .env`
@@ -29,7 +31,5 @@
 * `echo NAME_DATABASE = ... >> .env`
 * `echo HOST_DATABASE = ... >> .env`
 * `echo SECRET_KEY = ...`
-### KHỞI TẠO DATABASE
-* `docker-compose up -d`
 ### CHẠY
 * `python APIBackend/manage.py runserver`
